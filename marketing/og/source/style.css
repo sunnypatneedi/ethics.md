@@ -1,0 +1,15 @@
+@font-face{font-family:"ZS";font-weight:700;src:url(/node_modules/@fontsource/zilla-slab/files/zilla-slab-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"ZS";font-weight:500;src:url(/node_modules/@fontsource/zilla-slab/files/zilla-slab-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"ZS";font-weight:500;font-style:italic;src:url(/node_modules/@fontsource/zilla-slab/files/zilla-slab-latin-500-italic.woff2) format("woff2")}
+@font-face{font-family:"STM";src:url(/node_modules/@fontsource/share-tech-mono/files/share-tech-mono-latin-400-normal.woff2) format("woff2")}
+:root{--blue:#0F3D6E;--deep:#0A2A4F;--white:#F4F7F9;--ochre:#E0A526}
+html,body,#stage{background:#F4F7F9}
+canvas#cv{position:absolute;left:0;top:0}
+.t{position:absolute;white-space:nowrap;visibility:hidden}
+.mono{font-family:STM;font-size:21px;letter-spacing:.04em;color:var(--white)}
+.h{font-family:ZS;font-weight:700;font-size:54px;line-height:1.04;color:var(--blue);letter-spacing:-.005em}
+.qt{font-family:ZS;font-weight:500;font-style:italic;font-size:32px;line-height:1.2;color:var(--blue)}
+.ttl{font-family:ZS;font-weight:700;font-size:98px;line-height:.9;color:var(--white);letter-spacing:-.01em}
+.prom{font-family:ZS;font-weight:500;font-size:27px;line-height:1.24;color:var(--white);white-space:normal;width:516px}
+svg.ink{position:absolute;left:0;top:0;overflow:visible}
+svg.ink path{fill:none;stroke:var(--ochre);stroke-linecap:round;stroke-linejoin:round}
